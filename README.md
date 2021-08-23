@@ -1,9 +1,9 @@
 # TaskRouter Dashboard POC
-This repo contains the frontend client that shows worker availability and queue time stats using the TaskRouter v1.x SDK. It assumes the availability of a backend service that returns capability tokens for accessing the workspace object (https://www.twilio.com/docs/taskrouter/js-sdk/workspace).
+This repo contains a skeleton React client that shows worker availability and queue time stats using the TaskRouter v1.x SDK. It assumes the availability of a backend service that returns capability tokens for accessing the workspace object (https://www.twilio.com/docs/taskrouter/js-sdk/workspace).
 
 ![Image of Direct Message flow](https://images-8630.twil.io/Screenshot%202021-08-23%20at%2016.35.50.png)
 
-## Provision
+## Instructions
 1. Install dependencies
 ```
 yarn install
