@@ -1,0 +1,59 @@
+body {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: darkcyan;
+}
+
+h3 {
+  margin: 0px;
+  padding-bottom: 7px;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.worker-list {
+  width: 100%;
+  display: flex;
+}
+
+.worker-container {
+  padding: 15px;
+  background: rgb(232, 239, 241);
+  box-shadow: 10px 0 0 0 green;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 200px;
+}
+
+div {
+  padding-bottom: 3px;
+}
+
+.worker-container.unavailable {
+  box-shadow: 12px 0 0 0 red;
+}
+
+.task-queue-list {
+  display: flex;
+}
+
+.task-queue-container {
+  padding: 15px;
+  background: rgb(232, 239, 241);
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 250px;
+}
