@@ -8,7 +8,7 @@ This repo contains a skeleton React client that shows worker availability and qu
 ```
 yarn install
 ```
-2. Add the tokenUrl (for your token issuing service) and workerSid (for which the token will be issued against) in the getToken() function of App.js
+2. Add the tokenUrl (for your token issuing service) and workerSid (for which the token will be issued against) in the getToken() function of App.js:
 
 ```
   const getToken = async () => {
@@ -22,7 +22,7 @@ yarn install
   };
 ```
 
-2. Run the client. You should see stats refresh every 3 seconds (the poll rate can be defined in the startInterval() function.
+2. Run the client. You should see stats refresh every 3 seconds (the poll rate can be defined in the startInterval() function).
 ```
 yarn start
 ```
