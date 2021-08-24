@@ -22,7 +22,7 @@ yarn install
   };
 ```
 
-2. Run the client. You should see stats refresh every 3 seconds (the poll rate can be defined in the startInterval() function).
+3. Run the client. You should see stats refresh every 3 seconds (the poll rate can be defined in the startInterval() function).
 ```
 yarn start
 ```
